@@ -7,11 +7,11 @@ Farmers have various options when it comes to deciding which crop to plant each 
 
 A farmer reached out to you as a machine learning expert for assistance in selecting the best crop for his field. They've provided you with a dataset called soil_measures.csv, which contains:
 
-"N": Nitrogen content ratio in the soil
-"P": Phosphorous content ratio in the soil
-"K": Potassium content ratio in the soil
-"pH" value of the soil
-"crop": categorical values that contain various crops (target variable).
+- "N": Nitrogen content ratio in the soil
+- "P": Phosphorous content ratio in the soil
+- "K": Potassium content ratio in the soil
+- "pH" value of the soil
+- "crop": categorical values that contain various crops (target variable).
 Each row in this dataset represents various measures of the soil in a particular field. Based on these measurements, the crop specified in the "crop" column is the optimal choice for that field.
 
 In this project, you will apply machine learning to build a multi-class classification model to predict the type of "crop", while using techniques to avoid multicollinearity, which is a concept where two or more features are highly correlated.
